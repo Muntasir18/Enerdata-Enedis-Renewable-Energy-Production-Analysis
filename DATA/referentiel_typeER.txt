@@ -1,0 +1,8 @@
+Code Type Prod	Type Production
+300	Hydraulique
+500	Cogénération
+100	Photovoltaïque
+400	Bio énergie
+200	Eolien
+600	Autres
+550	Stockage hors hydraulique
