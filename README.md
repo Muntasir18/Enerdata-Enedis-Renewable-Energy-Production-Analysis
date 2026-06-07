@@ -1,13 +1,13 @@
 # Enerdata & Enedis Renewable Energy Production Analysis (Power BI) ⚡
 
-## 📌 Project Overview
+## Project Overview
 As a Data Analyst at **Enerdata** (a firm specialized in energy data analysis), I was mandated by **Enedis** to deliver a comprehensive, dynamic, and interactive Power BI report for their *Networks Studies and Strategic Forecasting Department*. 
 
 <img width="3171" height="1770" alt="Capture d’écran 2026-06-07 à 09 47 01" src="https://github.com/user-attachments/assets/0366484e-9f9d-447e-919e-a7a0eeb4e408" />
 
 The core objective of this report is to monitor the evolution of the renewable energy production park connected to the Enedis distribution network (2020–2025), evaluate local energy mix trends, isolate high-potential geographical zones, and cross-reference capacity data with climate factors (temperatures and sunshine hours) provided by Météo France.
 
-## ⚙️ Data Engineering & Modeling (Power Query & DAX)
+## Data Engineering & Modeling (Power Query & DAX)
 The project required a robust ETL workflow and an optimized relational model built from four distinct sources (Excel, CSV, and TXT):
 
 1. **Data Extraction & Transformation (Power Query):**
@@ -22,7 +22,7 @@ The project required a robust ETL workflow and an optimized relational model bui
    - **Storage Rate:** Calculated the precise percentage of installations fitted with energy storage capabilities using `CALCULATE`, `SUM`, and `DIVIDE`.
    - **Theoretical Yield (MW/Day):** Created a climate adequation metric for 2024 by isolating Photovoltaic capacities and dividing them by regional sunshine thresholds.
 
-## 📊 Dashboard Architecture & Navigation
+## Dashboard Architecture & Navigation
 The final `.pbix` deliverable is organized into a modular, business-oriented framework structured across specialized layers:
 
 * **Global Filter Constraint:** A report-wide page filter was permanently applied to restrict calculations strictly to **End of Quarter (Fin de Trimestre)** thresholds. This constraint prevents double-counting and ensures that annual accumulations reflect precise year-end total capacities.
