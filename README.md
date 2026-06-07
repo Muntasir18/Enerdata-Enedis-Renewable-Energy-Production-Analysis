@@ -1,4 +1,4 @@
-# Enerdata & Enedis Renewable Energy Production Analysis (Power BI) ⚡
+# Enerdata & Enedis Renewable Energy Production Analysis (Power BI) 
 
 ## Project Overview
 As a Data Analyst at **Enerdata** (a firm specialized in energy data analysis), I was mandated by **Enedis** to deliver a comprehensive, dynamic, and interactive Power BI report for their *Networks Studies and Strategic Forecasting Department*. 
